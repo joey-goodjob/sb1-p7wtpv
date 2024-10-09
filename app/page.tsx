@@ -14,7 +14,12 @@ export default function Home() {
           <div className="container mx-auto text-center">
             <h1 className="text-5xl font-bold mb-4">精准计算您的Body Roundness Index (BRI)</h1>
             <p className="text-xl mb-8">全面了解您的健康状况，获取个性化建议</p>
-            <Button size="lg" variant="secondary">立即开始计算</Button>
+            <Button 
+              size="lg" 
+              className="bg-white text-primary hover:text-white transition-colors duration-300 shadow-lg"
+            >
+              立即开始计算
+            </Button>
           </div>
         </section>
 
@@ -52,7 +57,9 @@ export default function Home() {
         <section className="py-16">
           <div className="container mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">立即计算您的BRI</h2>
-            <BRICalculator />
+            <div id="bri-calculator">
+              <BRICalculator />
+            </div>
           </div>
         </section>
 

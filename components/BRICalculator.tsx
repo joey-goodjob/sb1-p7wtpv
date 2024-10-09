@@ -23,8 +23,8 @@ const BRICalculator = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4">BRI 计算器</h2>
+    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md border-2 border-primary">
+      <h2 className="text-2xl font-bold mb-4 text-center">BRI 计算器</h2>
       <div className="space-y-4">
         <div>
           <Label htmlFor="height">身高 (cm)</Label>
@@ -56,10 +56,10 @@ const BRICalculator = () => {
             placeholder="例如：80"
           />
         </div>
-        <Button onClick={calculateBRI} className="w-full">计算 BRI</Button>
+        <Button onClick={calculateBRI} className="w-full mt-6">计算 BRI</Button>
       </div>
       {bri !== null && (
-        <div className="mt-4 p-4 bg-primary text-white rounded-md">
+        <div className="mt-6 p-4 bg-primary/10 text-primary rounded-md border border-primary">
           <p className="text-lg font-bold">您的 BRI: {bri}</p>
           <p className="text-sm mt-2">
             BRI值越低越好。一般来说，BRI &lt; 1 表示健康体型，
