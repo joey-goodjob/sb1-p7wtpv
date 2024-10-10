@@ -12,38 +12,38 @@ export default function Home() {
       <main className="flex-grow">
         <section className="bg-primary text-white py-20">
           <div className="container mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-4">精准计算您的Body Roundness Index (BRI)</h1>
-            <p className="text-xl mb-8">全面了解您的健康状况，获取个性化建议</p>
-            <Button size="lg" variant="secondary">立即开始计算</Button>
+            <h1 className="text-5xl font-bold mb-4">Calculate Your Body Roundness Index (BRI) Accurately</h1>
+            <p className="text-xl mb-8">Gain a comprehensive understanding of your health status and receive personalized advice</p>
+            <Button size="lg" variant="secondary">Start Calculating Now</Button>
           </div>
         </section>
 
         <section className="py-16">
           <div className="container mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">什么是Body Roundness Index (BRI)?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">What is Body Roundness Index (BRI)?</h2>
             <p className="text-lg mb-4">
-              Body Roundness Index (BRI) 是一种新型的健康指标，它结合了身高、体重和腰围的测量，
-              提供了比传统的身体质量指数 (BMI) 更全面的身体健康评估。BRI 不仅考虑了整体体重，
-              还特别关注了腹部脂肪的分布，这对评估健康风险尤为重要。
+              Body Roundness Index (BRI) is a new health indicator that combines measurements of height, weight, and waist circumference,
+              providing a more comprehensive assessment of body health than the traditional Body Mass Index (BMI). BRI not only considers
+              overall weight but also focuses on abdominal fat distribution, which is particularly important for assessing health risks.
             </p>
           </div>
         </section>
 
         <section className="bg-background-secondary py-16">
           <div className="container mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">为什么选择BRI Calculator?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">Why Choose BRI Calculator?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow">
-                <h3 className="text-xl font-bold mb-4">精确评估</h3>
-                <p>BRI提供比BMI更准确的身体健康评估，特别是在评估腹部肥胖方面。</p>
+                <h3 className="text-xl font-bold mb-4">Accurate Assessment</h3>
+                <p>BRI provides a more accurate assessment of body health than BMI, especially in evaluating abdominal obesity.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow">
-                <h3 className="text-xl font-bold mb-4">个性化建议</h3>
-                <p>根据您的BRI结果，我们提供定制的健康建议和改善计划。</p>
+                <h3 className="text-xl font-bold mb-4">Personalized Advice</h3>
+                <p>We offer customized health recommendations and improvement plans based on your BRI results.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow">
-                <h3 className="text-xl font-bold mb-4">追踪进展</h3>
-                <p>定期计算BRI，轻松追踪您的健康改善进展。</p>
+                <h3 className="text-xl font-bold mb-4">Track Progress</h3>
+                <p>Easily track your health improvement progress by calculating BRI regularly.</p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
 
         <section className="py-16">
           <div className="container mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">立即计算您的BRI</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">Calculate Your BRI Now</h2>
             <BRICalculator />
           </div>
         </section>
