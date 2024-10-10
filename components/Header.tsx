@@ -8,14 +8,14 @@ const Header = () => {
         <Link href="/" className="text-2xl font-bold">BRI Calculator</Link>
         <nav>
           <ul className="flex space-x-4">
-            <li><Link href="/">首页</Link></li>
-            <li><Link href="/about">关于BRI</Link></li>
-            <li><Link href="/guide">使用指南</Link></li>
-            <li><Link href="/health-info">健康资讯</Link></li>
-            <li><Link href="/contact">联系我们</Link></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/about">About BRI</Link></li>
+            <li><Link href="/guide">User Guide</Link></li>
+            <li><Link href="/health-info">Health Info</Link></li>
+            <li><Link href="/contact">Contact Us</Link></li>
           </ul>
         </nav>
-        <Button variant="secondary">开始计算</Button>
+        <Button variant="secondary">Start Calculating</Button>
       </div>
     </header>
   );

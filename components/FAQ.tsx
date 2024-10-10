@@ -8,43 +8,43 @@ import {
 const FAQ = () => {
   return (
     <div className="max-w-3xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6 text-center">常见问题解答</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center">Frequently Asked Questions</h2>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
-          <AccordionTrigger>什么是Body Roundness Index (BRI)?</AccordionTrigger>
+          <AccordionTrigger>What is Body Roundness Index (BRI)?</AccordionTrigger>
           <AccordionContent>
-            Body Roundness Index (BRI) 是一种新型的健康指标，它结合了身高、体重和腰围的测量，
-            提供了比传统的身体质量指数 (BMI) 更全面的身体健康评估。BRI特别关注了腹部脂肪的分布，
-            这对评估健康风险尤为重要。
+            Body Roundness Index (BRI) is a new type of health indicator that combines measurements of height, weight, and waist circumference,
+            providing a more comprehensive assessment of body health than the traditional Body Mass Index (BMI). BRI particularly focuses on
+            the distribution of abdominal fat, which is especially important for assessing health risks.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>BRI与BMI有什么区别?</AccordionTrigger>
+          <AccordionTrigger>How is BRI different from BMI?</AccordionTrigger>
           <AccordionContent>
-            BRI比BMI更全面，因为它不仅考虑了身高和体重，还包括了腰围的测量。这使得BRI能更准确地
-            评估腹部肥胖，而腹部肥胖与多种健康风险密切相关。相比之下，BMI只考虑身高和体重，
-            无法区分肌肉和脂肪，也不能反映脂肪分布。
+            BRI is more comprehensive than BMI because it considers not only height and weight but also waist circumference. This allows BRI to
+            more accurately assess abdominal obesity, which is closely related to various health risks. In contrast, BMI only considers height
+            and weight, cannot distinguish between muscle and fat, and cannot reflect fat distribution.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>如何解读我的BRI结果?</AccordionTrigger>
+          <AccordionTrigger>How do I interpret my BRI result?</AccordionTrigger>
           <AccordionContent>
-            BRI值越低越好。一般来说，BRI &lt; 1 表示健康体型，1 ≤ BRI &lt; 2 表示超重，
-            BRI ≥ 2 表示肥胖。但请记住，BRI只是健康评估的一个方面，应结合其他指标和医生的建议
-            来全面评估您的健康状况。
+            The lower the BRI value, the better. Generally, BRI &lt; 1 indicates a healthy body shape, 1 ≤ BRI &lt; 2 indicates overweight,
+            and BRI ≥ 2 indicates obesity. However, please remember that BRI is just one aspect of health assessment and should be considered
+            along with other indicators and your doctor's advice for a comprehensive evaluation of your health status.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
-          <AccordionTrigger>使用BRI Calculator需要付费吗?</AccordionTrigger>
+          <AccordionTrigger>Is there a fee to use the BRI Calculator?</AccordionTrigger>
           <AccordionContent>
-            不需要。我们的BRI Calculator是完全免费的。我们致力于为所有用户提供免费、准确的健康评估工具。
+            No, our BRI Calculator is completely free. We are committed to providing free, accurate health assessment tools for all users.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-5">
-          <AccordionTrigger>我的数据安全吗?</AccordionTrigger>
+          <AccordionTrigger>Is my data safe?</AccordionTrigger>
           <AccordionContent>
-            是的，您的数据安全是我们的首要任务。我们采用先进的加密技术保护您的个人信息，
-            并且绝不会将您的数据出售或分享给第三方。您可以放心使用我们的服务。
+            Yes, your data security is our top priority. We use advanced encryption technology to protect your personal information,
+            and we never sell or share your data with third parties. You can use our service with peace of mind.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

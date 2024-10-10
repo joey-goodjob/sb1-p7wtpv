@@ -24,46 +24,46 @@ const BRICalculator = () => {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4">BRI 计算器</h2>
+      <h2 className="text-2xl font-bold mb-4">BRI Calculator</h2>
       <div className="space-y-4">
         <div>
-          <Label htmlFor="height">身高 (cm)</Label>
+          <Label htmlFor="height">Height (cm)</Label>
           <Input
             id="height"
             type="number"
             value={height}
             onChange={(e) => setHeight(e.target.value)}
-            placeholder="例如：170"
+            placeholder="e.g., 170"
           />
         </div>
         <div>
-          <Label htmlFor="weight">体重 (kg)</Label>
+          <Label htmlFor="weight">Weight (kg)</Label>
           <Input
             id="weight"
             type="number"
             value={weight}
             onChange={(e) => setWeight(e.target.value)}
-            placeholder="例如：70"
+            placeholder="e.g., 70"
           />
         </div>
         <div>
-          <Label htmlFor="waist">腰围 (cm)</Label>
+          <Label htmlFor="waist">Waist Circumference (cm)</Label>
           <Input
             id="waist"
             type="number"
             value={waistCircumference}
             onChange={(e) => setWaistCircumference(e.target.value)}
-            placeholder="例如：80"
+            placeholder="e.g., 80"
           />
         </div>
-        <Button onClick={calculateBRI} className="w-full">计算 BRI</Button>
+        <Button onClick={calculateBRI} className="w-full">Calculate BRI</Button>
       </div>
       {bri !== null && (
         <div className="mt-4 p-4 bg-primary text-white rounded-md">
-          <p className="text-lg font-bold">您的 BRI: {bri}</p>
+          <p className="text-lg font-bold">Your BRI: {bri}</p>
           <p className="text-sm mt-2">
-            BRI值越低越好。一般来说，BRI &lt; 1 表示健康体型，
-            1 ≤ BRI &lt; 2 表示超重，BRI ≥ 2 表示肥胖。
+            Lower BRI values are better. Generally, BRI &lt; 1 indicates a healthy body shape,
+            1 ≤ BRI &lt; 2 indicates overweight, and BRI ≥ 2 indicates obesity.
           </p>
         </div>
       )}
