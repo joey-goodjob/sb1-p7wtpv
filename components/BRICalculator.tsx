@@ -24,7 +24,7 @@ const BRICalculator = () => {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4">BRI Calculator</h2>
+      <h2 className="text-2xl font-bold mb-4">BRI 计算器</h2>
       <div className="space-y-4">
         <div>
           <Label htmlFor="height">Height (cm)</Label>
@@ -56,11 +56,11 @@ const BRICalculator = () => {
             placeholder="e.g., 80"
           />
         </div>
-        <Button onClick={calculateBRI} className="w-full">Calculate BRI</Button>
+        <Button onClick={calculateBRI} className="w-full">计算 BRI</Button>
       </div>
       {bri !== null && (
         <div className="mt-4 p-4 bg-primary text-white rounded-md">
-          <p className="text-lg font-bold">Your BRI: {bri}</p>
+          <p className="text-lg font-bold">您的 BRI: {bri}</p>
           <p className="text-sm mt-2">
             Lower BRI values are better. Generally, BRI &lt; 1 indicates a healthy body shape,
             1 ≤ BRI &lt; 2 indicates overweight, and BRI ≥ 2 indicates obesity.
